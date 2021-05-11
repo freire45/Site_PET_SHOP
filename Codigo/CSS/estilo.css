@@ -1,0 +1,206 @@
+body{
+    font-family: "Arial", sans-serif;
+}
+
+.cabecalho{
+    width: 1200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.logomarca{
+    width: 600px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 40px;
+    float: left;
+}
+
+.menu ol{
+   font-size: 19.4px;
+   list-style: none;
+   border: medium solid white;
+   float: left;  
+   margin-left: 655px;
+   margin-right: 600px; 
+   margin-top: 148px;
+   margin-bottom: 0%;
+   background: cornflowerblue;
+   font-weight: bolder;
+   padding-right: 2px;
+   padding-left: 2px;
+   width: 530px;
+   position: fixed;
+   border-radius: 10px;
+
+}
+
+.menu li {
+	position: relative;
+	float: left;
+	border-right: 1px solid white;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 1px;
+	display: block;	
+}
+
+.menu li a:hover{
+	background: white;
+	color: cornflowerblue;
+	-moz-box-shadow:0 3px 10px 0 cornflowerblue;
+	-webkit-box-shadow: 0 3px 10px 0 cornflowerblue;
+	text-shadow: 0px 0px 5px cornflowerblue;
+}
+
+.areaPrincipal{
+    width: 1200px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    background-color: #E0FFFF;
+}
+
+.rodape{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;;
+    width: 1200px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.rodape p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 12px;
+}
+
+.secao1{
+    width: 350px;
+    height: 450px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    border: dashed 1px blue;
+}
+
+.secao1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.secao1 a img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.secao1 img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.secao2{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    border: dashed 1px blue;
+}
+
+.secao2 a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.secao2 a img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.secao2 img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tituloPrincipal{
+    color: cornflowerblue;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.endereco{
+    color: white;
+    font-weight: bolder;
+    float: left;
+    width: 250px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 200px;
+}
+
+.mapa{
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.formulario{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.formulario fieldset input{
+    width: 500px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.formulario fieldset button{
+    background-color: white;
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
